@@ -13,92 +13,195 @@
         crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/17edda2936.js" crossorigin="anonymous"></script>
 </head>
-<!-- -------------------------------Nav bar--------------------------------------- -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
-    <div class="container">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">
-                <img src="img/logo.png" alt="">
-            </a>
-            <ul class="navbar-nav ms-auto mg-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link " aria-current="page" href="#">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Popular</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Services</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Review</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Question</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn text-warning bg-dark px-4 rounded-10" href="#">Contact Us</a>
-                </li>
 
-            </ul>
+<body>
+    <!-- -------------------------------Nav bar--------------------------------------- -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <a class="navbar-brand" href="#">
+                    <img src="img/logo.png" alt="">
+                </a>
+                <ul class="navbar-nav ms-auto mg-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Question</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link btn text-warning bg-dark px-4 rounded-10" href="#">Contact Us</a>
+                    </li>
+
+                </ul>
+            </div>
         </div>
-    </div>
-</nav>
-<!-- -------------------------------------------------------------------------------------- -->
-<div id="carouselExampleIndicators" class="carousel slide">
-    <div class="carousel-indicators">
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
-    </div>
-    <div class="carousel-inner">
-        <div class="carousel-item active">
-            <img src="img/home6.jpg" class="d-block w-100-height" alt="img1">
-            <div class="carousel-caption carousel1">
-                <p>1 / 3</p>
-                <h5>Discover property <br>More Easily</h5>
-                <div class="mt-5 d-flex">
-                    <input type="text" class="form-control w-50 rounded-9 search" id="floatinginput"
-                        placeholder="search..">
-                    <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3 rounded-9">
-                        <i class="fa-solid fa-magnifying-glass"></i>Search</button>
+    </nav>
+    <!-- -------------------------------------------------------------------------------------- -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="2000">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="img/home6.jpg" class="d-block w-100-height" alt="img1">
+                <div class="carousel-caption carousel1">
+                    <p>1 / 3</p>
+                    <h5>Discover property <br>More Easily</h5>
+                    <div class="mt-5 d-flex">
+                        <input type="text" class="form-control w-50 rounded-9 search" id="floatinginput"
+                            placeholder="search..">
+                        <button class="btn btn-light btn-sm justify-content-md-end mx-2 px-3 rounded-9">
+                            <i class="fa-solid fa-magnifying-glass"></i>Search</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/home7.jpg" class="d-block w-100-height" alt="img2">
+                <div class="carousel-caption carousel1">
+                    <p>2 / 3</p>
+                    <h5>Looking for dream home? <br>with low price</h5>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="img/home8.jpg" class="d-block w-100-height" alt="img3">
+                <div class="carousel-caption carousel1">
+                    <p>3 / 3</p>
+                    <h5>find your perfect<br>property</h5>
                 </div>
             </div>
         </div>
 
-        <div class="carousel-item">
-            <img src="img/home7.jpg" class="d-block w-100-height" alt="img2">
-            <div class="carousel-caption carousel1">
-                <p>2 / 3</p>
-                <h5>Looking for dream home? <br>with low price</h5>
-            </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplay"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplay"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
-        <div class="carousel-item">
-            <img src="img/home8.jpg" class="d-block w-100-height" alt="img3">
-            <div class="carousel-caption carousel1">
-                <p>3 / 3</p>
-                <h5>find your perfect<br>property</h5>
+    <!-- -------------------------------------------------------------------------------------- -->
+
+    <div class="container">
+        <div class="row">
+            <!-- Finland Card -->
+            <div class="col-md-4 col-sm-6 col-lg-3 mt-4 ">
+                <div class="card h-100">
+                    <img src="img/home1.jpg" class="card-img-top" alt="Beautiful property in Finland">
+                    <div class="card-body">
+                        <h5 class="card-title">Finland</h5>
+                        <h5 class="amount">$2,344 | 2,434 sqft</h5>
+                        <p class="card-text">
+                            Street: Korkeakoulunkatu<br>
+                            City: Mikkeli <br>
+                            State/Province/Area: Southern Savonia <br>
+                            Phone Number: +358 44 186 3828 <br>
+                            Zip Code: 50170 <br>
+                            Country: Finland
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Colombia Card -->
+            <div class="col-md-4 col-sm-6 col-lg-3 mt-4">
+                <div class="card h-100">
+                    <img src="img/home2.jpg" class="card-img-top" alt="Beautiful property in Colombia">
+                    <div class="card-body">
+                        <h5 class="card-title">Colombia</h5>
+                        <h5 class="amount">$3,543 | 32,345 sqft</h5>
+                        <p class="card-text">
+                            Street: Carrera 94 <br>
+                            City: Bogotá <br>
+                            State/Province/Area: Cundinamarca <br>
+                            Phone Number: +57 334 186 34345 <br>
+                            Zip Code: 16545 <br>
+                            Country: Colombia
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Brazil Card -->
+            <div class="col-md-4 col-sm-6 col-lg-3 mt-4 ">
+                <div class="card h-100">
+                    <img src="img/home3.jpg" class="card-img-top" alt="Beautiful property in Brazil">
+                    <div class="card-body">
+                        <h5 class="card-title">Brazil</h5>
+                        <h5 class="amount">$5,445 | 43,256 sqft</h5>
+                        <p class="card-text">
+                            Street: Avenida Paulista 94 <br>
+                            City: São Paulo <br>
+                            State/Province/Area: São Paulo <br>
+                            Phone Number: +55 13 186 133 <br>
+                            Zip Code: 01311-200 <br>
+                            Country: Brazil
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <!-- Canada Card -->
+            <div class="col-md-4 col-sm-6 col-lg-3 mt-4">
+                <div class="card h-100">
+                    <img src="img/home4.jpg" class="card-img-top" alt="Beautiful property in Canada">
+                    <div class="card-body">
+                        <h5 class="card-title">Canada</h5>
+                        <h5 class="amount">$3,656 | 3,453 sqft</h5>
+                        <p class="card-text">
+                            Street: Granville Street 94 <br>
+                            City: Vancouver <br>
+                            State/Province/Area: British Columbia <br>
+                            Phone Number: +1 604 123 4567 <br>
+                            Zip Code: V6Z 1Y6 <br>
+                            Country: Canada
+                        </p>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
+    <!-- -------------------------------------------------------------------------------------- -->
+     <section></section>
+    
 
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-    </button>
-</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
